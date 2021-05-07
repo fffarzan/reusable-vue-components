@@ -1,3 +1,4 @@
+
 import { storiesOf } from '@storybook/vue'
 import JTable from './JTable'
 
@@ -21,6 +22,23 @@ storiesOf('JTable', module)
       />
     `,
     data: () => ({
+      items
+    })
+  }))
+  .add('with 7 items + header', () => ({
+    components: { JTable },
+    template:
+    `
+      <JTable
+        :header="header"
+        :items="items"
+      />
+    `,
+    data: () => ({
+      header: [
+        'Name',
+        'Email'
+      ],
       items
     })
   }))
