@@ -6,5 +6,9 @@
   },
   "dependencies": {
     "@fffarzan/j-table-row": "^0.2.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "https://github.com/fffarzan/reusable-vue-components.git"
   }
 }
