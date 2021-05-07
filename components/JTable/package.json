@@ -1,14 +1,14 @@
 {
   "name": "@fffarzan/j-table",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@fffarzan/j-table-row": "^0.2.0"
+    "@fffarzan/j-table-row": "^0.3.0"
   },
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "https://github.com/fffarzan/reusable-vue-components.git"
   }
 }
