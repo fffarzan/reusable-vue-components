@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/vue'
 import JTableRow from './JTableRow'
 
+
 storiesOf('JTableRow', module)
   .add('normal', () => ({
     components: { JTableRow },
